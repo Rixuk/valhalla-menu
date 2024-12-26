@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Chewy";
+  src: url(./fonts/Chewy-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Concert";
+  src: url(./fonts/ConcertOne-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "YoungSeriff";
+  src: url(./fonts/YoungSerif-Regular.ttf) format("truetypa");
+}

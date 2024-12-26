@@ -1,0 +1,7 @@
+.menu-sections {
+  width: 100%;
+  height: 100%;
+  padding: 75px;
+  border-right: 1px solid gray;
+  box-sizing: border-box;
+}

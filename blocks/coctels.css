@@ -1,0 +1,43 @@
+.coctels {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 15px double rgb(250, 250, 0);
+  border-radius: 15px;
+  width: 100%;
+  height: 2300px;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.coctels__title {
+  margin: 50px auto 0;
+  font-family: "Chewy";
+  font-size: 200px;
+  color: white;
+}
+.coctels__columns {
+  width: 100%;
+}
+.coctels__left {
+  font-family: "Concert";
+  font-size: 54px;
+  color: white;
+  position: relative;
+  left: 50px;
+  margin: 125px auto 0;
+}
+.coctels__right {
+  text-align: end;
+  font-family: "Concert";
+  font-size: 54px;
+  color: white;
+  position: relative;
+  right: 100px;
+  margin: 0;
+}
+#coctels__diff {
+  font-family: "Concert";
+  font-size: 50px;
+  color: white;
+  position: relative;
+  left: 100px;
+  margin: 125px auto 0;
+}

@@ -1,0 +1,41 @@
+.beer {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 15px double rgb(250, 250, 0);
+  border-radius: 15px;
+  width: 100%;
+  height: 2300px;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.beer__title {
+  margin: 50px auto 0;
+  font-family: "Chewy";
+  font-size: 200px;
+  color: white;
+}
+.beer__list {
+  font-family: "Concert";
+  font-size: 54px;
+  color: white;
+  display: flex;
+  flex-flow: column wrap;
+  list-style: none;
+}
+.beer__list-element {
+  margin: 50px auto 0;
+}
+.sodas {
+  margin: 100px auto 0;
+  font-family: "Chewy";
+  font-size: 200px;
+  color: white;
+}
+.sodas__element {
+  font-family: "Concert";
+  font-size: 64px;
+  color: white;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  list-style: none;
+}

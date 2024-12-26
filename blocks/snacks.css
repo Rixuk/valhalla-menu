@@ -1,0 +1,165 @@
+.snacks {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 15px double rgb(250, 250, 0);
+  border-radius: 15px;
+  width: 100%;
+  height: 2300px;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.snacks__title {
+  margin: 50px auto 0;
+  font-family: "Chewy";
+  font-size: 200px;
+  color: white;
+}
+.snacks__table-boneless {
+  font-family: "Concert";
+  font-size: 54px;
+  color: white;
+  margin: 75px 50px 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+    ". t6pcs t12pcs t24pcs"
+    "wings wings-6pcs wings-12pcs wings-24pcs"
+    "bongles bongles-6pcs bongles-12pcs bongles-24pcs";
+  gap: 15px;
+}
+#t6pcs {
+  grid-area: t6pcs;
+}
+#t12pcs {
+  grid-area: t12pcs;
+}
+#t24pcs {
+  grid-area: t24pcs;
+}
+#wings {
+  grid-area: wings;
+}
+#wings-6pcs {
+  grid-area: wings-6pcs;
+}
+#wings-12pcs {
+  grid-area: wings-12pcs;
+}
+#wings-24pcs {
+  grid-area: wings-24pcs;
+}
+#bongles {
+  grid-area: bongles;
+}
+#bongles-6pcs {
+  grid-area: bongles-6pcs;
+}
+#bongles-12pcs {
+  grid-area: bongles-12pcs;
+}
+#bongles-24pcs {
+  grid-area: bongles-24pcs;
+}
+.snacks__wings-list {
+  margin: 50px 0 0;
+  font-family: "Chewy";
+  font-size: 44px;
+  color: white;
+  list-style: none;
+  position: relative;
+  left: 100px;
+}
+.snacks__wings-flavors-text {
+  margin: 0;
+}
+.snacks__wings-flavors-list {
+  list-style: disc;
+}
+.snacks__table-potatoes {
+  font-family: "Concert";
+  font-size: 54px;
+  color: white;
+  margin: 75px 50px 0;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+    ". classics specials"
+    "french french-class french-special"
+    "gajo gajo-class gajo-special";
+  gap: 20px;
+  border-top: 5px solid white;
+}
+#french {
+  grid-area: french;
+}
+#gajo {
+  grid-area: gajo;
+}
+#classics {
+  grid-area: classics;
+}
+#specials {
+  grid-area: specials;
+}
+#french-class {
+  grid-area: french-class;
+}
+#french-special {
+  grid-area: french-special;
+}
+#gajo-class {
+  grid-area: gajo-class;
+}
+#gajo-special {
+  grid-area: gajo-special;
+}
+.snacks__table-hotburguers {
+  font-family: "Concert";
+  font-size: 54px;
+  color: white;
+  margin: 0 50px 50px;
+  padding: 10px;
+  border-top: 5px solid white;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+    ". nnormal frenchs"
+    "jodogs jodogs-normal jodogs-french"
+    "burguers burguers-normal burguers-french";
+  gap: 20px;
+}
+#jodogs {
+  grid-area: jodogs;
+}
+#burguers {
+  grid-area: burguers;
+}
+#normals {
+  grid-area: nnormal;
+}
+#frenchs {
+  grid-area: frenchs;
+}
+#jodogs-normal {
+  grid-area: jodogs-normal;
+}
+#jodogs-french {
+  grid-area: jodogs-french;
+}
+#burguers-normal {
+  grid-area: burguers-normal;
+}
+#burguers-french {
+  grid-area: burguers-french;
+}
+.ramen {
+  font-family: "Concert";
+  font-size: 54px;
+  color: white;
+  margin: 0 50px 0;
+  padding-top: 25px;
+  border-top: 5px solid white;
+}
